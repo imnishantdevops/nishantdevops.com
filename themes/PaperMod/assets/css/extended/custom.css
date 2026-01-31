@@ -1,0 +1,168 @@
+/* =========================================================
+   GLOBAL TYPOGRAPHY & BASE POLISH
+========================================================= */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-feature-settings: "liga", "kern";
+  line-height: 1.7;
+}
+
+/* Slightly wider layout for desktop */
+.main {
+  max-width: 1100px;
+}
+
+/* =========================================================
+   NAVBAR / HEADER
+========================================================= */
+.header {
+  backdrop-filter: saturate(180%) blur(6px);
+}
+
+.nav {
+  font-weight: 500;
+}
+
+.nav a {
+  opacity: 0.85;
+  transition: opacity 0.2s ease;
+}
+
+.nav a:hover {
+  opacity: 1;
+}
+
+/* =========================================================
+   HOMEPAGE – PROFILE MODE (HERO SECTION)
+========================================================= */
+.profile {
+  margin-top: 5.5rem;
+}
+
+.profile .profile_inner {
+  max-width: 760px;
+}
+
+/* Hero title */
+.profile h1 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  letter-spacing: -0.025em;
+}
+
+/* Subtitle */
+.profile p {
+  font-size: 1.05rem;
+  color: var(--secondary);
+  margin-top: 0.75rem;
+}
+
+/* =========================================================
+   PROFILE IMAGE
+========================================================= */
+.profile img {
+  border-radius: 50%;
+  border: 2px solid var(--border);
+  padding: 4px;
+  background: var(--theme);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.profile img:hover {
+  transform: scale(1.03);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+}
+
+/* =========================================================
+   HERO BUTTONS (Projects / About / Blog)
+========================================================= */
+.profile .buttons {
+  margin-top: 1.2rem;
+}
+
+.profile .buttons a {
+  border-radius: 999px;
+  padding: 0.45rem 1.2rem;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.profile .buttons a:hover {
+  transform: translateY(-2px);
+}
+
+/* =========================================================
+   SOCIAL ICONS
+========================================================= */
+.social-icons a {
+  opacity: 0.75;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.social-icons a:hover {
+  opacity: 1;
+  transform: translateY(-2px);
+}
+
+/* =========================================================
+   POST / PAGE CONTENT
+========================================================= */
+.post-content {
+  font-size: 1rem;
+}
+
+.post-content h2 {
+  margin-top: 2.5rem;
+}
+
+.post-content h3 {
+  margin-top: 2rem;
+}
+
+/* =========================================================
+   CODE BLOCKS (DevOps Friendly)
+========================================================= */
+pre {
+  border-radius: 10px;
+  padding: 1rem;
+  font-size: 0.9rem;
+}
+
+/* Inline code */
+code {
+  border-radius: 6px;
+  padding: 0.15rem 0.35rem;
+}
+
+/* =========================================================
+   CARDS / LIST ITEMS (Projects, Blog)
+========================================================= */
+.post-entry {
+  border-radius: 14px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.post-entry:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+/* =========================================================
+   FOOTER
+========================================================= */
+.footer {
+  font-size: 0.85rem;
+  opacity: 0.85;
+}
+
+/* =========================================================
+   DARK MODE TUNING (Premium Look)
+========================================================= */
+.dark {
+  --theme: #0e1117;
+  --entry: #161b22;
+  --border: #30363d;
+}
