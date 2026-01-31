@@ -64,6 +64,9 @@ enableRobotsTXT = true
   name = "linkedin"
   url = "https://www.linkedin.com/in/imnishant19/"
 
+[[params.socialIcons]]
+  name = "instagram"
+  url = "https://instagram.com/imnishant19"  
 # --------------------------------------------------
 # TOP NAVIGATION MENU
 # --------------------------------------------------
