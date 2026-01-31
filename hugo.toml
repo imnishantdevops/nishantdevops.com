@@ -33,7 +33,7 @@ enableRobotsTXT = true
 # --------------------------------------------------
 [params.profileMode]
   enabled = true
-  title = "Hi, I’m Nishant 👋"
+  title = "Hi, I’m Nishant Kamal👋"
   subtitle = "Site Reliability Engineer • Kubernetes • Cloud • GitOps • Automation • DevOps • Platform"
 
   imageUrl = "/images/pic1.jpeg"
