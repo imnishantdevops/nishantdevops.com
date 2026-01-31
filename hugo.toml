@@ -29,7 +29,8 @@ enableRobotsTXT = true
   enabled = true
   title = "Hi, I’m Nishant 👋"
   subtitle = "Site Reliability Engineer • Kubernetes • Cloud • GitOps • Automation"
-  imageUrl = ""        # add later: /images/profile.jpg
+
+  imageUrl = "/images/pic1.jpeg"
   imageTitle = "Nishant Kamal"
   imageWidth = 150
   imageHeight = 150
