@@ -73,8 +73,8 @@ enableRobotsTXT = true
   url = "https://x.com/imnishant19"  
 
 [[params.socialIcons]]
-  name = "gmail"
-  url = "mailto:nishant.kamal2015@gmail.com"  
+  name = "email"
+  url = "mailto:nishant.kamal2015@gmail.com?subject=Hello%20Nishant&body=Found%20your%20site%20via%20GitHub%20Pages" 
 # --------------------------------------------------
 # TOP NAVIGATION MENU
 # --------------------------------------------------
