@@ -58,7 +58,7 @@ enableRobotsTXT = true
 # --------------------------------------------------
 [[params.socialIcons]]
   name = "github"
-  url = "https://github.com/imnishantdevops"
+  url = "https://github.com/nishant-kamal"
 
 [[params.socialIcons]]
   name = "linkedin"
